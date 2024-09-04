@@ -16,7 +16,7 @@ function Faq() {
   return (
     <div
       className="min-h-screen font-[Barlow] bg-[#e0ffd7] bg-cover bg-fixed"
-      style={{ backgroundImage: `url(${bgImg})` }}
+      style={{ backgroundImage: `url(https://www.fairobserver.com/wp-content/uploads/2024/01/Pakistan-1.jpg)` }}
     >
       <div
         className="h-fit bg-cover"
@@ -29,8 +29,8 @@ function Faq() {
               FAQ's
             </h1>
             <div className="w-full md:w-1/3 left-10 bg-[#4F7942] text-white p-5 md:p-10 mt-10 md:mt-36 text-center md:text-start">
-              <p className="text-lg font-bold mb-4">Toll Free Call</p>
-              <p className="text-3xl font-bold">+1 910-626-85255</p>
+              <p className="text-lg font-bold mb-4">Contact Us</p>
+              <p className="text-3xl font-bold">+92 337 0446599</p>
             </div>
           </div>
         </div>
@@ -52,14 +52,12 @@ function Faq() {
               className="bg-gray-100"
             >
               <p className="font-medium">
-                Will replacement windows aptent taciti sociosqu ad litora?
+                How to Contact You?
               </p>
             </AccordionSummary>
             <AccordionDetails className="bg-gray-50">
               <p className="text-gray-600">
-                Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt
-                auctor a ornare odio.
+                You may fill in the the form at home page or contact us at +92 337 0446599
               </p>
             </AccordionDetails>
           </Accordion>
@@ -75,15 +73,12 @@ function Faq() {
               className="bg-gray-100"
             >
               <p className="font-medium">
-                Do your windows and doors have warranty?
+                Do you have lawyers?
               </p>
             </AccordionSummary>
             <AccordionDetails className="bg-gray-50">
               <p className="text-gray-600">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae.
+                We do offer legal services and yes we have lawyers for your help. Please contact us for more information.
               </p>
             </AccordionDetails>
           </Accordion>
@@ -99,60 +94,12 @@ function Faq() {
               className="bg-gray-100"
             >
               <p className="font-medium">
-                What is the difference between condimentum sit amet?
+                What is the process of buying a home?
               </p>
             </AccordionSummary>
             <AccordionDetails className="bg-gray-50">
               <p className="text-gray-600">
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt.
-              </p>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion
-            expanded={expanded === "panel4"}
-            onChange={handleChange("panel4")}
-            className="my-2 p-2 rounded-lg shadow-sm"
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel4bh-content"
-              id="panel4bh-header"
-              className="bg-gray-100"
-            >
-              <p className="font-medium">
-                What is the price difference velit mauris egestas?
-              </p>
-            </AccordionSummary>
-            <AccordionDetails className="bg-gray-50">
-              <p className="text-gray-600">
-                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                consectetur, adipisci velit, sed quia non numquam eius modi
-                tempora incidunt ut labore et dolore magnam aliquam quaerat
-                voluptatem.
-              </p>
-            </AccordionDetails>
-          </Accordion>
-          <Accordion
-            expanded={expanded === "panel5"}
-            onChange={handleChange("panel5")}
-            className="my-2 p-2 rounded-lg shadow-sm"
-          >
-            <AccordionSummary
-              expandIcon={<ExpandMoreIcon />}
-              aria-controls="panel5bh-content"
-              id="panel5bh-header"
-              className="bg-gray-100"
-            >
-              <p className="font-medium">
-                How much does it cost to fermentum feugiat?
-              </p>
-            </AccordionSummary>
-            <AccordionDetails className="bg-gray-50">
-              <p className="text-gray-600">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                The process of buying a home is simple, just contact us for more information.
               </p>
             </AccordionDetails>
           </Accordion>
@@ -167,10 +114,10 @@ function Faq() {
             <p className="text-4xl md:text-5xl font-bold text-white mb-10">
               Sleep in Absolute Peace Wake up to Bright Sunshine
             </p>
-            <p className="md:text-lg text-white mb-10">
+            {/* <p className="md:text-lg text-white mb-10">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
               tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-            </p>
+            </p> */}
             <button className="bg-[#4F7942] text-white px-10 py-3 rounded-full">
               Get Free Estimate
             </button>

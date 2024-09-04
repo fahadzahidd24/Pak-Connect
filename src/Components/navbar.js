@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../Assets/logo.png";
+import logo from "../Assets/AppLogo.png";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
         <img
           src={logo}
           alt="Logo"
-          className="h-12 md:h-14 hover:cursor-pointer bg-[#4F7942] p-1 md:bg-transparent"
+          className="h-12 md:h-44 hover:cursor-pointer bg-[#4F7942] p-1 md:bg-transparent"
           onClick={() => (window.location.href = "/")}
         />
         <div
@@ -40,7 +40,7 @@ function Navbar() {
               Home
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -49,8 +49,8 @@ function Navbar() {
             >
               About
             </NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink
               to="/services"
               className={({ isActive }) =>
@@ -59,8 +59,8 @@ function Navbar() {
             >
               Services
             </NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink
               to="/portfolio"
               className={({ isActive }) =>
@@ -69,7 +69,7 @@ function Navbar() {
             >
               Portfolio
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               to="/faqs"
@@ -80,7 +80,7 @@ function Navbar() {
               FAQ's
             </NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink
               to="/contact"
               className={({ isActive }) =>
@@ -89,7 +89,7 @@ function Navbar() {
             >
               Contact
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink
               to="/"
